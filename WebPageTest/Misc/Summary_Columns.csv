@@ -1,0 +1,53 @@
+URL,URL that was used to start the test
+Successful Tests,Number of run successfully done
+Document Complete Median,Time until the document is complete
+Document Complete Avg,
+Document Complete Std. Dev,
+Document Complete Min,
+Document Complete Max,
+Fully Loaded Median,Time to fully load the page
+Fully Loaded Avg,
+Fully Loaded Std. Dev,
+Fully Loaded Min,
+Fully Loaded Max,
+First Byte Median,Time to First Byte from when the navigation started until the first byte of page content is returned (after redirects)
+First Byte Avg,
+First Byte Std. Dev,
+First Byte Min,
+First Byte Max,
+Start Render Median,Start render time. When the first onscreen content change happened based on the video capture data
+Start Render Avg,
+Start Render Std. Dev,
+Start Render Min,
+Start Render Max,
+Bytes In (Doc) Median,Number of bytes received before the document complete time (onLoad event)
+Bytes In (Doc) Avg,
+Bytes In (Doc) Std. Dev,
+Bytes In (Doc) Min,
+Bytes In (Doc) Max,
+Requests (Doc) Median,Number of requests before the document complete time (onLoad event)
+Requests (Doc) Avg,
+Requests (Doc) Std. Dev,
+Requests (Doc) Min,
+Requests (Doc) Max,
+Load Event Start Median,Start time of the last main-frame load event (before the event handlers run)
+Load Event Start Avg,
+Load Event Start Std. Dev,
+Load Event Start Min,
+Load Event Start Max,
+Speed Index Median,Histogram-based SpeedIndex calculated from video capture
+Speed Index Avg,
+Speed Index Std. Dev,
+Speed Index Min,
+Speed Index Max,
+Last Visual Change Median,Time of the last visual change of any kind based on the video capture
+Last Visual Change Avg,
+Last Visual Change Std. Dev,
+Last Visual Change Min,
+Last Visual Change Max,
+Visually Complete Median,When the page was 100% visually complete for the first time based on the video capture and comparing page histograms (SpeedIndex completeness)
+Visually Complete Avg,
+Visually Complete Std. Dev,
+Visually Complete Min,
+Visually Complete Max,
+Test ID,ID of the test for webpagetest website

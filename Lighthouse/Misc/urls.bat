@@ -1,0 +1,1 @@
+@For /F "UseBackQ Delims=" %%A In ("urls.txt") Do @LightHouse "%%A" --quiet --chrome-flags="--headless"
