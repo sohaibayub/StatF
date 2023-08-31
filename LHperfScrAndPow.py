@@ -29,7 +29,7 @@ from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_sc
 
 
 
-readDataPath = 'C:/Users/Web Energy Project/Data-PowerAPI-Lighthouse-WebpageTest/'
+readDataPath = 'Data-PowerAPI-Lighthouse-WebpageTest/'
 
 def getIndivualAndAveragePowConsumption():
     pathPow = 'PowerAPI/cleaned-data/'
