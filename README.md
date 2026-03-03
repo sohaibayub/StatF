@@ -1,5 +1,7 @@
 # StatF
 
+[![DOI](https://zenodo.org/badge/465050837.svg)](https://doi.org/10.5281/zenodo.18848634)
+
 StatF is a research-focused project that explores the relationship between static website features and their energy consumption. The project utilizes data collected from Lighthouse audits and WebPageTest results to analyze how various frontend characteristics impact the energy efficiency of websites.
 
 ## 📊 Project Overview
