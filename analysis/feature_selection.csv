@@ -1,0 +1,386 @@
+tool,feature,decision
+WebPageTest,minify_total,Excluded: overlaps with a retained optimization feature
+WebPageTest,responses_200,Excluded: overlaps with the retained request and byte counts
+WebPageTest,testStartOffset,"Excluded: timing measurement, changes between loads"
+WebPageTest,bytesOut,Excluded: overlaps with the retained request and byte counts
+WebPageTest,gzip_savings,Selected
+WebPageTest,requestsFull,Excluded: overlaps with the retained request and byte counts
+WebPageTest,start_epoch,"Excluded: test or page identifier, not a design feature"
+WebPageTest,connections,Excluded: overlaps with the retained request and byte counts
+WebPageTest,base_page_cdn,"Excluded: test or page identifier, not a design feature"
+WebPageTest,cpu.EventDispatch,"Excluded: CPU time of the test run, changes between loads"
+WebPageTest,bytesOutDoc,Excluded: overlaps with the retained request and byte counts
+WebPageTest,result,"Excluded: test or page identifier, not a design feature"
+WebPageTest,final_base_page_request_id,"Excluded: test or page identifier, not a design feature"
+WebPageTest,score_cookies,Excluded: overlaps with a retained optimization feature
+WebPageTest,basePageSSLTime,"Excluded: timing measurement, changes between loads"
+WebPageTest,docTime,"Excluded: timing measurement, changes between loads"
+WebPageTest,domContentLoadedEventEnd,"Excluded: timing measurement, changes between loads"
+WebPageTest,image_savings,Excluded: overlaps with a retained optimization feature
+WebPageTest,cpu.XHRReadyStateChange,"Excluded: CPU time of the test run, changes between loads"
+WebPageTest,requestsDoc,Excluded: overlaps with the retained request and byte counts
+WebPageTest,cpu.v8.compile,"Excluded: CPU time of the test run, changes between loads"
+WebPageTest,cpu.CommitLoad,"Excluded: CPU time of the test run, changes between loads"
+WebPageTest,firstMeaningfulPaint,"Excluded: timing measurement, changes between loads"
+WebPageTest,cpu.FunctionCall,"Excluded: CPU time of the test run, changes between loads"
+WebPageTest,firstTextPaint,"Excluded: timing measurement, changes between loads"
+WebPageTest,firstPaint,"Excluded: timing measurement, changes between loads"
+WebPageTest,cpu.ParseAuthorStyleSheet,"Excluded: CPU time of the test run, changes between loads"
+WebPageTest,score_cdn,Selected
+WebPageTest,cpu.Idle,"Excluded: CPU time of the test run, changes between loads"
+WebPageTest,cpu.ParseHTML,"Excluded: CPU time of the test run, changes between loads"
+WebPageTest,cpu.TimerFire,"Excluded: CPU time of the test run, changes between loads"
+WebPageTest,optimization_checked,"Excluded: test or page identifier, not a design feature"
+WebPageTest,image_total,Excluded: overlaps with a retained optimization feature
+WebPageTest,score_minify,Excluded: overlaps with a retained optimization feature
+WebPageTest,gzip_total,Selected
+WebPageTest,responses_404,Excluded: overlaps with the retained request and byte counts
+WebPageTest,cpu.ResourceSendRequest,"Excluded: CPU time of the test run, changes between loads"
+WebPageTest,cpu.Layout,"Excluded: CPU time of the test run, changes between loads"
+WebPageTest,loadTime,"Excluded: timing measurement, changes between loads"
+WebPageTest,URL,"Excluded: test or page identifier, not a design feature"
+WebPageTest,score_combine,Excluded: overlaps with a retained optimization feature
+WebPageTest,firstContentfulPaint,"Excluded: timing measurement, changes between loads"
+WebPageTest,cpu.PlatformResourceSendRequest,"Excluded: CPU time of the test run, changes between loads"
+WebPageTest,firstLayout,"Excluded: timing measurement, changes between loads"
+WebPageTest,score_etags,Excluded: overlaps with a retained optimization feature
+WebPageTest,loadEventStart,"Excluded: timing measurement, changes between loads"
+WebPageTest,cpu.EvaluateScript,"Excluded: CPU time of the test run, changes between loads"
+WebPageTest,cpu.XHRLoad,"Excluded: CPU time of the test run, changes between loads"
+WebPageTest,minify_savings,Excluded: overlaps with a retained optimization feature
+WebPageTest,score_progressive_jpeg,Excluded: overlaps with a retained optimization feature
+WebPageTest,domInteractive,"Excluded: timing measurement, changes between loads"
+WebPageTest,score_gzip,Selected
+WebPageTest,cpu.Paint,"Excluded: CPU time of the test run, changes between loads"
+WebPageTest,score_compress,Selected
+WebPageTest,domContentLoadedEventStart,"Excluded: timing measurement, changes between loads"
+WebPageTest,final_url,"Excluded: test or page identifier, not a design feature"
+WebPageTest,cpu.ResourceChangePriority,"Excluded: CPU time of the test run, changes between loads"
+WebPageTest,cpu.MinorGC,"Excluded: CPU time of the test run, changes between loads"
+WebPageTest,bytesInDoc,Excluded: overlaps with the retained request and byte counts
+WebPageTest,firstImagePaint,"Excluded: timing measurement, changes between loads"
+WebPageTest,score_keep-alive,Selected
+WebPageTest,loadEventEnd,"Excluded: timing measurement, changes between loads"
+WebPageTest,cached,"Excluded: test or page identifier, not a design feature"
+WebPageTest,score_cache,Selected
+WebPageTest,cpu.FireIdleCallback,"Excluded: CPU time of the test run, changes between loads"
+WebPageTest,responses_other,Excluded: overlaps with the retained request and byte counts
+WebPageTest,cpu.UpdateLayerTree,"Excluded: CPU time of the test run, changes between loads"
+WebPageTest,cpu.FireAnimationFrame,"Excluded: CPU time of the test run, changes between loads"
+WebPageTest,main_frame,"Excluded: test or page identifier, not a design feature"
+WebPageTest,fullyLoaded,"Excluded: timing measurement, changes between loads"
+WebPageTest,requests,Selected
+WebPageTest,final_base_page_request,"Excluded: test or page identifier, not a design feature"
+WebPageTest,TTFB,"Excluded: timing measurement, changes between loads"
+WebPageTest,cpu.UpdateLayoutTree,"Excluded: CPU time of the test run, changes between loads"
+WebPageTest,bytesIn,Selected
+WebPageTest,test_run_time_ms,"Excluded: test or page identifier, not a design feature"
+WebPageTest,browser_version,"Excluded: test or page identifier, not a design feature"
+WebPageTest,base_page_dns_server,"Excluded: test or page identifier, not a design feature"
+WebPageTest,fullyLoadedCPUms,"Excluded: CPU time of the test run, changes between loads"
+WebPageTest,PerformancePaintTiming.first-contentful-paint,"Excluded: timing measurement, changes between loads"
+WebPageTest,base_page_ip_ptr,"Excluded: test or page identifier, not a design feature"
+WebPageTest,eventName,"Excluded: test or page identifier, not a design feature"
+WebPageTest,base_page_cname,"Excluded: test or page identifier, not a design feature"
+WebPageTest,document_URL,"Excluded: test or page identifier, not a design feature"
+WebPageTest,date,"Excluded: test or page identifier, not a design feature"
+WebPageTest,PerformancePaintTiming.first-paint,"Excluded: timing measurement, changes between loads"
+WebPageTest,domElements,Selected
+WebPageTest,browserVersion,"Excluded: test or page identifier, not a design feature"
+WebPageTest,document_origin,"Excluded: test or page identifier, not a design feature"
+WebPageTest,browser_name,"Excluded: test or page identifier, not a design feature"
+WebPageTest,fullyLoadedCPUpct,"Excluded: CPU time of the test run, changes between loads"
+WebPageTest,domComplete,"Excluded: timing measurement, changes between loads"
+WebPageTest,document_hostname,"Excluded: test or page identifier, not a design feature"
+WebPageTest,CSI.s,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.t,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.atyp,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.ei,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.rt,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.imn,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.ima,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.imad,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.aftp,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.bl,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.wsrt,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.aft,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.afti,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.prt,"Excluded: timing measurement, changes between loads"
+WebPageTest,SpeedIndex,"Excluded: timing measurement, changes between loads"
+WebPageTest,visualComplete85,"Excluded: timing measurement, changes between loads"
+WebPageTest,visualComplete90,"Excluded: timing measurement, changes between loads"
+WebPageTest,visualComplete95,"Excluded: timing measurement, changes between loads"
+WebPageTest,visualComplete99,"Excluded: timing measurement, changes between loads"
+WebPageTest,visualComplete,"Excluded: timing measurement, changes between loads"
+WebPageTest,render,"Excluded: timing measurement, changes between loads"
+WebPageTest,lastVisualChange,"Excluded: timing measurement, changes between loads"
+WebPageTest,chromeUserTiming.redirectStart,"Excluded: timing measurement, changes between loads"
+WebPageTest,chromeUserTiming.redirectEnd,"Excluded: timing measurement, changes between loads"
+WebPageTest,chromeUserTiming.fetchStart,"Excluded: timing measurement, changes between loads"
+WebPageTest,chromeUserTiming.unloadEventStart,"Excluded: timing measurement, changes between loads"
+WebPageTest,chromeUserTiming.unloadEventEnd,"Excluded: timing measurement, changes between loads"
+WebPageTest,chromeUserTiming.domLoading,"Excluded: timing measurement, changes between loads"
+WebPageTest,chromeUserTiming.responseEnd,"Excluded: timing measurement, changes between loads"
+WebPageTest,chromeUserTiming.firstLayout,"Excluded: timing measurement, changes between loads"
+WebPageTest,chromeUserTiming.firstPaint,"Excluded: timing measurement, changes between loads"
+WebPageTest,chromeUserTiming.firstContentfulPaint,"Excluded: timing measurement, changes between loads"
+WebPageTest,chromeUserTiming.firstTextPaint,"Excluded: timing measurement, changes between loads"
+WebPageTest,chromeUserTiming.firstImagePaint,"Excluded: timing measurement, changes between loads"
+WebPageTest,chromeUserTiming.firstMeaningfulPaintCandidate,"Excluded: timing measurement, changes between loads"
+WebPageTest,chromeUserTiming.firstMeaningfulPaint,"Excluded: timing measurement, changes between loads"
+WebPageTest,chromeUserTiming.domInteractive,"Excluded: timing measurement, changes between loads"
+WebPageTest,chromeUserTiming.domContentLoadedEventStart,"Excluded: timing measurement, changes between loads"
+WebPageTest,chromeUserTiming.domContentLoadedEventEnd,"Excluded: timing measurement, changes between loads"
+WebPageTest,chromeUserTiming.domComplete,"Excluded: timing measurement, changes between loads"
+WebPageTest,chromeUserTiming.loadEventStart,"Excluded: timing measurement, changes between loads"
+WebPageTest,chromeUserTiming.loadEventEnd,"Excluded: timing measurement, changes between loads"
+WebPageTest,TTIMeasurementEnd,"Excluded: timing measurement, changes between loads"
+WebPageTest,LastInteractive,"Excluded: timing measurement, changes between loads"
+WebPageTest,run,"Excluded: test or page identifier, not a design feature"
+WebPageTest,step,"Excluded: test or page identifier, not a design feature"
+WebPageTest,effectiveBps,"Excluded: timing measurement, changes between loads"
+WebPageTest,effectiveBpsDoc,"Excluded: timing measurement, changes between loads"
+WebPageTest,domTime,"Excluded: timing measurement, changes between loads"
+WebPageTest,aft,"Excluded: timing measurement, changes between loads"
+WebPageTest,titleTime,"Excluded: timing measurement, changes between loads"
+WebPageTest,domLoading,"Excluded: timing measurement, changes between loads"
+WebPageTest,server_rtt,"Excluded: timing measurement, changes between loads"
+WebPageTest,smallImageCount,Selected
+WebPageTest,bigImageCount,Selected
+WebPageTest,maybeCaptcha,"Excluded: test or page identifier, not a design feature"
+WebPageTest,bytes.html,Selected
+WebPageTest,requests.html,Selected
+WebPageTest,bytesUncompressed.html,Selected
+WebPageTest,bytes.js,Selected
+WebPageTest,requests.js,Selected
+WebPageTest,bytesUncompressed.js,Selected
+WebPageTest,bytes.css,Selected
+WebPageTest,requests.css,Selected
+WebPageTest,bytesUncompressed.css,Selected
+WebPageTest,bytes.image,Selected
+WebPageTest,requests.image,Selected
+WebPageTest,bytesUncompressed.image,Selected
+WebPageTest,bytes.flash,"Excluded: Flash content, obsolete"
+WebPageTest,requests.flash,"Excluded: Flash content, obsolete"
+WebPageTest,bytesUncompressed.flash,"Excluded: Flash content, obsolete"
+WebPageTest,bytes.font,Selected
+WebPageTest,requests.font,Selected
+WebPageTest,bytesUncompressed.font,Selected
+WebPageTest,bytes.video,Selected
+WebPageTest,requests.video,Selected
+WebPageTest,bytesUncompressed.video,Selected
+WebPageTest,bytes.other,Selected
+WebPageTest,requests.other,Selected
+WebPageTest,bytesUncompressed.other,Selected
+WebPageTest,id,"Excluded: test or page identifier, not a design feature"
+WebPageTest,cpu.ScriptWrappableMarkingVisitor::performLazyCleanup,"Excluded: CPU time of the test run, changes between loads"
+WebPageTest,cpu.MajorGC,"Excluded: CPU time of the test run, changes between loads"
+WebPageTest,FirstInteractive,"Excluded: timing measurement, changes between loads"
+WebPageTest,cpu.v8.compileModule,"Excluded: CPU time of the test run, changes between loads"
+WebPageTest,cpu.ScrollLayer,"Excluded: CPU time of the test run, changes between loads"
+WebPageTest,cpu.v8.evaluateModule,"Excluded: CPU time of the test run, changes between loads"
+WebPageTest,cpu.HitTest,"Excluded: CPU time of the test run, changes between loads"
+WebPageTest,CSI.v,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.dmc,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.puid,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.c,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.slotId,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.fb,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.sdkv,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.mrd,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.aab,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.itv,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.eee,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.bi,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.vmfc,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.vhc,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.ghmsh_eids,"Excluded: timing measurement, changes between loads"
+WebPageTest,chromeUserTiming.InteractiveTime,"Excluded: timing measurement, changes between loads"
+WebPageTest,TimeToInteractive,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.ppt,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.ppv,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.met_4,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.aec,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.action,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.chm,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.e,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.ctx,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.qqid,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.uet,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.met_3,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.met_1,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.top,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.met_9,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.met_10,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.qqid_5,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.qqid_1,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.qqid_4,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.qqid_2,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.qqid_3,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.met_7,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.qqid_6,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.qqid_7,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.qqid_8,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.qqid_9,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.met_2,"Excluded: timing measurement, changes between loads"
+WebPageTest,CSI.ps,"Excluded: timing measurement, changes between loads"
+WebPageTest,userTime.* and userTimingMeasure.* (1475 columns),"Excluded: site-specific timing marks, change between loads"
+Lighthouse,performance-score,Excluded: aggregate score (performance-score is used only for the PerfS baseline)
+Lighthouse,first-contentful-paint,"Excluded: timing measurement, changes between loads"
+Lighthouse,speed-index,"Excluded: timing measurement, changes between loads"
+Lighthouse,largest-contentful-paint,"Excluded: timing measurement, changes between loads"
+Lighthouse,interactive,"Excluded: timing measurement, changes between loads"
+Lighthouse,total-blocking-time,"Excluded: timing measurement, changes between loads"
+Lighthouse,cumulative-layout-shift,"Excluded: timing measurement, changes between loads"
+Lighthouse,max-potential-fid,"Excluded: timing measurement, changes between loads"
+Lighthouse,first-meaningful-paint,"Excluded: timing measurement, changes between loads"
+Lighthouse,render-blocking-resources,Selected
+Lighthouse,uses-responsive-images,Selected
+Lighthouse,offscreen-images,Selected
+Lighthouse,unminified-css,Selected
+Lighthouse,unminified-javascript,Selected
+Lighthouse,unused-css-rules,Selected
+Lighthouse,unused-javascript,Excluded: not retained in the domain review
+Lighthouse,uses-optimized-images,Selected
+Lighthouse,modern-image-formats,Excluded: not retained in the domain review
+Lighthouse,uses-text-compression,Selected
+Lighthouse,uses-rel-preconnect,Selected
+Lighthouse,server-response-time,"Excluded: timing measurement, changes between loads"
+Lighthouse,redirects,Selected
+Lighthouse,uses-rel-preload,Excluded: not retained in the domain review
+Lighthouse,uses-http2,Excluded: not retained in the domain review
+Lighthouse,efficient-animated-content,Selected
+Lighthouse,duplicated-javascript,Excluded: not retained in the domain review
+Lighthouse,legacy-javascript,Excluded: not retained in the domain review
+Lighthouse,preload-lcp-image,Excluded: not retained in the domain review
+Lighthouse,total-byte-weight,Selected
+Lighthouse,uses-long-cache-ttl,Selected
+Lighthouse,dom-size,Selected
+Lighthouse,critical-request-chains,Excluded: diagnostic or informative audit without a usable score
+Lighthouse,user-timings,"Excluded: timing measurement, changes between loads"
+Lighthouse,bootup-time,"Excluded: timing measurement, changes between loads"
+Lighthouse,mainthread-work-breakdown,"Excluded: timing measurement, changes between loads"
+Lighthouse,font-display,Selected
+Lighthouse,performance-budget,Excluded: diagnostic or informative audit without a usable score
+Lighthouse,timing-budget,"Excluded: timing measurement, changes between loads"
+Lighthouse,resource-summary,Excluded: diagnostic or informative audit without a usable score
+Lighthouse,third-party-summary,Excluded: diagnostic or informative audit without a usable score
+Lighthouse,third-party-facades,Excluded: not retained in the domain review
+Lighthouse,largest-contentful-paint-element,Excluded: diagnostic or informative audit without a usable score
+Lighthouse,lcp-lazy-loaded,Excluded: not retained in the domain review
+Lighthouse,layout-shift-elements,Excluded: diagnostic or informative audit without a usable score
+Lighthouse,uses-passive-event-listeners,Excluded: not retained in the domain review
+Lighthouse,no-document-write,Excluded: not retained in the domain review
+Lighthouse,long-tasks,"Excluded: timing measurement, changes between loads"
+Lighthouse,non-composited-animations,Excluded: not retained in the domain review
+Lighthouse,unsized-images,Excluded: not retained in the domain review
+Lighthouse,viewport,Excluded: not retained in the domain review
+Lighthouse,network-requests,Excluded: diagnostic or informative audit without a usable score
+Lighthouse,network-rtt,"Excluded: timing measurement, changes between loads"
+Lighthouse,network-server-latency,"Excluded: timing measurement, changes between loads"
+Lighthouse,main-thread-tasks,"Excluded: timing measurement, changes between loads"
+Lighthouse,diagnostics,Excluded: diagnostic or informative audit without a usable score
+Lighthouse,metrics,"Excluded: timing measurement, changes between loads"
+Lighthouse,screenshot-thumbnails,Excluded: diagnostic or informative audit without a usable score
+Lighthouse,final-screenshot,Excluded: diagnostic or informative audit without a usable score
+Lighthouse,script-treemap-data,Excluded: diagnostic or informative audit without a usable score
+Lighthouse,accessibility-score,Excluded: aggregate score of a category unrelated to load work
+Lighthouse,accesskeys,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,aria-allowed-attr,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,aria-command-name,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,aria-hidden-body,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,aria-hidden-focus,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,aria-input-field-name,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,aria-meter-name,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,aria-progressbar-name,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,aria-required-attr,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,aria-required-children,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,aria-required-parent,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,aria-roles,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,aria-toggle-field-name,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,aria-tooltip-name,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,aria-treeitem-name,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,aria-valid-attr-value,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,aria-valid-attr,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,button-name,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,bypass,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,color-contrast,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,definition-list,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,dlitem,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,document-title,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,duplicate-id-active,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,duplicate-id-aria,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,form-field-multiple-labels,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,frame-title,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,heading-order,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,html-has-lang,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,html-lang-valid,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,image-alt,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,input-image-alt,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,label,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,link-name,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,list,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,listitem,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,meta-refresh,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,meta-viewport,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,object-alt,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,tabindex,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,td-headers-attr,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,th-has-data-cells,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,valid-lang,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,video-caption,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,logical-tab-order,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,focusable-controls,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,interactive-element-affordance,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,managed-focus,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,focus-traps,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,custom-controls-labels,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,custom-controls-roles,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,visual-order-follows-dom,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,offscreen-content-hidden,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,use-landmarks,"Excluded: Accessibility audit, no clear link to load work"
+Lighthouse,best-practices-score,Excluded: aggregate score of a category unrelated to load work
+Lighthouse,is-on-https,"Excluded: Best Practices audit, no clear link to load work"
+Lighthouse,external-anchors-use-rel-noopener,"Excluded: Best Practices audit, no clear link to load work"
+Lighthouse,geolocation-on-start,"Excluded: Best Practices audit, no clear link to load work"
+Lighthouse,notification-on-start,"Excluded: Best Practices audit, no clear link to load work"
+Lighthouse,no-vulnerable-libraries,"Excluded: Best Practices audit, no clear link to load work"
+Lighthouse,csp-xss,"Excluded: Best Practices audit, no clear link to load work"
+Lighthouse,password-inputs-can-be-pasted-into,"Excluded: Best Practices audit, no clear link to load work"
+Lighthouse,image-aspect-ratio,"Excluded: Best Practices audit, no clear link to load work"
+Lighthouse,image-size-responsive,"Excluded: Best Practices audit, no clear link to load work"
+Lighthouse,preload-fonts,"Excluded: Best Practices audit, no clear link to load work"
+Lighthouse,doctype,"Excluded: Best Practices audit, no clear link to load work"
+Lighthouse,charset,"Excluded: Best Practices audit, no clear link to load work"
+Lighthouse,no-unload-listeners,"Excluded: Best Practices audit, no clear link to load work"
+Lighthouse,appcache-manifest,"Excluded: Best Practices audit, no clear link to load work"
+Lighthouse,js-libraries,"Excluded: Best Practices audit, no clear link to load work"
+Lighthouse,deprecations,"Excluded: Best Practices audit, no clear link to load work"
+Lighthouse,errors-in-console,"Excluded: Best Practices audit, no clear link to load work"
+Lighthouse,valid-source-maps,"Excluded: Best Practices audit, no clear link to load work"
+Lighthouse,inspector-issues,"Excluded: Best Practices audit, no clear link to load work"
+Lighthouse,seo-score,Excluded: aggregate score of a category unrelated to load work
+Lighthouse,meta-description,"Excluded: SEO audit, no clear link to load work"
+Lighthouse,http-status-code,"Excluded: SEO audit, no clear link to load work"
+Lighthouse,link-text,"Excluded: SEO audit, no clear link to load work"
+Lighthouse,crawlable-anchors,"Excluded: SEO audit, no clear link to load work"
+Lighthouse,is-crawlable,"Excluded: SEO audit, no clear link to load work"
+Lighthouse,robots-txt,"Excluded: SEO audit, no clear link to load work"
+Lighthouse,hreflang,"Excluded: SEO audit, no clear link to load work"
+Lighthouse,canonical,"Excluded: SEO audit, no clear link to load work"
+Lighthouse,font-size,"Excluded: SEO audit, no clear link to load work"
+Lighthouse,plugins,"Excluded: SEO audit, no clear link to load work"
+Lighthouse,tap-targets,"Excluded: SEO audit, no clear link to load work"
+Lighthouse,structured-data,"Excluded: SEO audit, no clear link to load work"
+Lighthouse,pwa-score,Excluded: aggregate score of a category unrelated to load work
+Lighthouse,installable-manifest,"Excluded: Progressive Web App audit, no clear link to load work"
+Lighthouse,service-worker,"Excluded: Progressive Web App audit, no clear link to load work"
+Lighthouse,redirects-http,"Excluded: Progressive Web App audit, no clear link to load work"
+Lighthouse,splash-screen,"Excluded: Progressive Web App audit, no clear link to load work"
+Lighthouse,themed-omnibox,"Excluded: Progressive Web App audit, no clear link to load work"
+Lighthouse,content-width,"Excluded: Progressive Web App audit, no clear link to load work"
+Lighthouse,apple-touch-icon,"Excluded: Progressive Web App audit, no clear link to load work"
+Lighthouse,maskable-icon,"Excluded: Progressive Web App audit, no clear link to load work"
+Lighthouse,pwa-cross-browser,"Excluded: Progressive Web App audit, no clear link to load work"
+Lighthouse,pwa-page-transitions,"Excluded: Progressive Web App audit, no clear link to load work"
+Lighthouse,pwa-each-page-has-url,"Excluded: Progressive Web App audit, no clear link to load work"

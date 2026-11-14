@@ -1,0 +1,26 @@
+Main results (685 websites, energy tiers from k-means on log energy)
+Protocol: repeated stratified 10-fold cross-validation, 10 repeats, corrected resampled t-test
+
+Energy tier classification
+  StatF, RF on 48 static features         accuracy 0.653  AUC-ROC 0.815
+  PerfS, single Lighthouse score (LR)     accuracy 0.632  AUC-ROC 0.778   vs StatF: acc p=0.30, AUC p=0.016
+  PerfS, six Lighthouse metrics (RF)      accuracy 0.651  AUC-ROC 0.793   vs StatF: acc p=0.90, AUC p=0.14
+  Static + six metrics (RF)               accuracy 0.677  AUC-ROC 0.834   vs six metrics: AUC p=0.0007, vs static: AUC p=0.012
+
+Regression on log energy (cross-validated R2)
+  Static features, RF                     0.503
+  Six Lighthouse metrics, RF              0.396   vs static: p=0.007
+  Single Lighthouse score, linear         0.345   vs static: p<0.0001
+
+Energy = average power x active time
+  Spearman of energy with active time 0.92, with average power 0.48
+  Share of variance of log energy: time 0.80, power 0.14, covariance 0.08
+
+Average power tier classification
+  Static features, RF                     accuracy 0.588  AUC-ROC 0.761
+  Six Lighthouse metrics, LR              accuracy 0.515  AUC-ROC 0.694   vs static: acc p=0.002, AUC p<0.0001
+  Single Lighthouse score, LR             accuracy 0.488  AUC-ROC 0.651   vs static: p<0.0001
+
+Active time tier classification
+  Static features, RF                     accuracy 0.606  AUC-ROC 0.761
+  Six Lighthouse metrics, RF              accuracy 0.608  AUC-ROC 0.762
