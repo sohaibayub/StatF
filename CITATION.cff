@@ -8,18 +8,14 @@ authors:
     orcid: "https://orcid.org/0000-0001-9206-1545"
   - family-names: Mustafa
     given-names: Nimrah
-	orcid: "https://orcid.org/0009-0005-3234-8831"
   - family-names: ul Hassan
     given-names: Umair
-	orcid: "https://orcid.org/0000-0002-3647-9020"
   - family-names: Khan
     given-names: Muhammad Asad
   - family-names: Faizullah
     given-names: Safiullah
-	orcid: "https://orcid.org/0000-0002-0367-7370"
   - family-names: Khan
     given-names: Imdad Ullah
-	orcid: "https://orcid.org/0000-0002-6955-6168"
 doi: 10.5281/zenodo.18848634
 repository-code: "https://github.com/sohaibayub/StatF"
 license: MIT
